@@ -1,0 +1,156 @@
+@import url("reset.css");
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	background: #fff url('../images/defaultbg.png') repeat-x;
+}
+
+#wrapper {
+	width:960px;
+	margin:0 auto 0 auto;
+}
+
+#header {
+	float:left;
+	width:960px;
+	height:100px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#header h1 {
+	font-size: 32px;
+	color:#fff;
+	position: absolute;
+	top:38%;
+}
+
+#header ul {
+	position: absolute;
+	right:0;
+	top:32%;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	float: right;
+	background-color: rgba(0, 0, 0, .1);
+	color: rgba(0, 0, 0, .1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#header li {
+	font-size: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline;
+	list-style-type: none;
+}
+
+#header li a {
+	color: #EEE;
+	text-decoration: none;
+}
+
+#content {
+	float:left;
+	width:960px;
+}
+
+#content a {
+	color:#C1272D;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+#content h2 {
+	font-size: 27px;
+	line-height:27px;
+	font-weight: bold;
+	color:#5E534B;
+	text-shadow: 0 1px white;
+	margin-bottom:30px;
+}
+
+#content table {
+	float:left;
+	width:960px;
+}
+
+#content th {
+	background: #f0eef0;
+	padding:15px;
+}
+
+#content table td {
+	padding:15px;
+	border-bottom: 1px solid #f0eef0;
+}
+
+#content form label {
+	float:left;
+	clear:both;
+	font-weight: bold;
+	margin-bottom:5px;
+	font-size:16px;
+	color:#C1272D;
+}
+
+#content form .input {
+	clear:both;
+	float:left;
+	padding:8px;
+	background: #faf9fb;
+	border:2px dotted #f0eef0;
+	margin-bottom: 30px;
+	width:938px;
+	line-height: normal;
+}
+
+#content form input {
+	float:left;
+	clear:both;
+}
+
+#content form input[type="text"], #content form input[type="password"] {
+	border:5px solid #ccc;
+	padding:5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	width:918px;
+}
+
+#content form input[type="text"]:focus, #content form input[type="password"]:focus, #content form textarea:focus {
+	border:5px solid #bbb;
+}
+
+#content form textarea {
+	border:5px solid #ccc;
+	padding:5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	width:918px;
+	height:60px;
+	margin:0;
+}
+
+#content form input[type="submit"] {
+	background: url('../images/nav.png') repeat-x;
+	border:none;
+	padding:13px 23px;
+	color:#fff;
+	font-size: 16px;
+	-moz-border:5px;
+	border-radius:5px;
+}
+
+#content form input[type="submit"]:hover {
+	background: url('../images/navhover.png') repeat-x;
+	cursor:pointer;
+}

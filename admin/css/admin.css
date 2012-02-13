@@ -1,0 +1,158 @@
+@import url("reset.css");
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	background: #fff url('../images/bg.png') repeat-x;
+}
+
+#wrapper {
+	width:960px;
+	margin:0 auto 0 auto;
+}
+
+#header {
+	float:left;
+	width:960px;
+	height:150px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#header h1 {
+	font-size: 32px;
+	color:#fff;
+	position: absolute;
+	top:25%;
+}
+
+#header a {
+	position: absolute;
+	bottom:0;
+	background: url('../images/nav.png') repeat-x;
+	padding:13px 23px;
+	color:#fff;
+	font-size: 16px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+}
+
+#header a:hover {
+	background: url('../images/navhover.png') repeat-x;
+}
+
+#header a.preview {
+	right:108px;
+}
+
+#header a.logout {
+	right:0;
+}
+
+#content {
+	float:left;
+	width:960px;
+}
+
+#content a {
+	color:#C1272D;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+#content h2 {
+	font-size: 27px;
+	line-height:27px;
+	font-weight: bold;
+	color:#5E534B;
+	text-shadow: 0 1px white;
+	margin-bottom:30px;
+}
+
+#content table {
+	float:left;
+	width:960px;
+	margin-bottom: 30px;
+}
+
+#content th {
+	background: #f0eef0;
+	padding:15px;
+}
+
+#content table td {
+	padding:15px;
+	border-bottom: 1px solid #f0eef0;
+}
+
+#content form label {
+	float:left;
+	clear:both;
+	font-weight: bold;
+	margin-bottom:5px;
+	font-size:16px;
+	color:#C1272D;
+}
+
+#content form .input {
+	clear:both;
+	float:left;
+	padding:8px;
+	background: #faf9fb;
+	border:2px dotted #f0eef0;
+	margin-bottom: 30px;
+	width:938px;
+	line-height: normal;
+}
+
+#content form input {
+	float:left;
+	clear:both;
+}
+
+#content form input[type="text"], #content form input[type="password"] {
+	border:5px solid #ccc;
+	padding:5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	width:918px;
+}
+
+#content form input[type="text"]:focus, #content form input[type="password"]:focus, #content form textarea:focus {
+	border:5px solid #bbb;
+}
+
+#content form textarea {
+	border:5px solid #ccc;
+	padding:5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	width:918px;
+	height:120px;
+	margin:0;
+}
+
+#content form input[type="submit"], #content a.submit {
+	clear: both;
+	float: left;
+	background: url('../images/nav.png') repeat-x;
+	border:none;
+	padding:13px 23px;
+	color:#fff;
+	font-size: 16px;
+	-moz-border:5px;
+	border-radius:5px;
+	text-decoration: none;
+}
+
+#content form input[type="submit"]:hover, #content a.submit:hover {
+	background: url('../images/navhover.png') repeat-x;
+	cursor:pointer;
+}
