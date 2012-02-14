@@ -3,13 +3,17 @@
 
 require_once 'config.php';
 
-// Connect to MySQL database
 function connect() {
-	mysql_connect(DB_HOST, DB_USER, DB_PASS) or die('Could not connect. ' . mysql_error());
-	mysql_select_db(DB_NAME) or die('Could not select database. ' . mysql_error());
+
+$link = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+if (!$link) {
+  header('location: install/index.php');
 }
 
-function setup() {
+$db_selected = mysql_select_db(DB_NAME, $link);
+if (!$db_selected) {
+  header('location: install/index.php');
+}
 
 }
 

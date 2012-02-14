@@ -14,28 +14,28 @@
 	</div>
 	
 	
-		<form action="setupdb.php" method="post">
+		<form action="setupusergo.php" method="post">
 		
 		
 		<fieldset class="two-col">
             <p class="left">
-                <label for="dbname">Database Name:</label>
-                <input type="text" name="dbname" id="dbname" value="">
+                <label for="title">Site Title:</label>
+                <input type="text" name="title" id="thetitle" value="">
             </p>
             <p class="right">
-                <label for="dbhost">Database Host:</label>
-                <input type="text" name="dbhost" id="dbhost" value="">
+                <label for="url">Your URL:</label>
+                <input type="text" name="url" id="url" value="<?php echo getcwd();?>">
             </p>
         </fieldset>
         
 		<fieldset class="two-col">
             <p class="left">
-                <label for="dbuser">Database Username:</label>
-                <input type="text" name="dbuser" id="dbuser" value="">
+                <label for="username">Admin Username:</label>
+                <input type="text" name="username" id="username" value="">
             </p>
             <p class="right">
-                <label for="dbpass">Database Password:</label>
-                <input type="password" name="dbpass" id="dbpass" value="">
+                <label for="password">Admin Password:</label>
+                <input type="password" name="password" id="password" value="">
             </p>
         </fieldset>
 			

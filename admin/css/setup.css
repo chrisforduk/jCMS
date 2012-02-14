@@ -1,0 +1,86 @@
+body {
+	background: url('../images/setupbg.png') repeat;
+	font: 9pt Arial, sans-serif;
+}
+
+#container {
+	background: #FFF;
+	width:560px;
+	margin:50px auto 0 auto;
+	padding:30px 30px;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 1px solid #ddd;
+	overflow: auto;
+}
+
+#container #title {
+	border-bottom: 1px solid #ECEAE6;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+}
+
+form fieldset.two-col {
+	width: 560px;
+	overflow: hidden;
+}
+
+form fieldset.two-col p {
+	float: left;
+	width: 270px;
+}
+
+form fieldset p {
+	padding-bottom: 11.5pt;
+}
+
+form fieldset.two-col p.left {
+	margin-right: 20px;
+}
+
+form fieldset.two-col input {
+	width: 258px;
+}
+
+p.buttons .button, p.buttons .low-button {
+	float: right;
+}
+
+form .next-step {
+	width: 122px;
+	background: url('../images/next-step.png');
+}
+
+a.low-button,button.low-button {
+    height: 40px;
+}
+.low-button:hover {
+    background-position: 0px -40px;
+    cursor: pointer;
+}
+
+button.button, a.button, button.low-button, a.low-button {
+	font-size: 12pt;
+	text-indent: -10000px;
+	display: block;
+	height: 40px;
+	border: none;
+	text-align: left;
+}
+
+form input, textarea {
+	font: 9pt Arial, sans-serif;
+	color: #7C7972;
+	border: 1px solid #E2E0D8;
+	background: #F6F5F1;
+	line-height: 1;
+	padding: 9px 5px 10px;
+}
+
+form label {
+	display: block;
+	font: 9pt Arial, sans-serif;
+	line-height: 15pt;
+	padding-bottom: 4px;
+}
